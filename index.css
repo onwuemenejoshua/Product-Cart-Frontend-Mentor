@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(146, 127, 127);
+}
+
+/* -----------THE CODE FOR THE CONTAINER---------------- */
+#container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media screen and (max-width: 400px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* ------------THE SYYLING FOR THE IMAGES----------------------*/
+.desktop {
+  width: 350px;
+  height: 500px;
+  border-radius: 15px 0 0 15px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile {
+    display: block;
+    width: 500px;
+    height: 600px;
+    border-radius: 15px 15px 0 0;
+  }
+  .desktop {
+    display: none;
+  }
+}
+/* -------------------THE STYLING FOR THE TEXT ----------------------*/
+.text {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 500px;
+  padding-left: 25px;
+  padding-right: 30px;
+  border-radius: 0 15px 15px 0;
+}
+.text_4 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.text_4-a {
+  color: hsl(158deg, 36%, 37%);
+  font-size: 2rem;
+}
+.text_4-b {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .text {
+    width: 500px;
+    height: 450px;
+    padding-left: 80px;
+    padding-right: 20px;
+    border-radius: 0 0 15px 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .text {
+    padding-left: 120px;
+  }
+}
+h1 {
+  margin-top: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500, 700;
+  font-size: 1rem;
+  letter-spacing: 8px;
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+  margin-top: 1.3rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: hsl(212deg, 21%, 14%);
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 1.3rem;
+  max-width: 250px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 1rem;
+    margin-top: 1.3rem;
+    max-width: 400px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 375px) {
+  p {
+    max-width: 350px;
+  }
+}
+/* ----------------- THE STYLING FOR THE LINK IN THE TEXT; ADD TO CART -------------------*/
+#link {
+  background-color: hsl(158deg, 36%, 37%);
+  margin-top: 1.5rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: white;
+  width: 250px;
+  font-size: 20px;
+  padding: 20px 15px;
+  align-items: center;
+}
+
+#link > img {
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+}
+
+#link:hover {
+  background-color: goldenrod;
+}
+
+@media screen and (max-width: 600px) {
+  #link {
+    padding: 20px 50px;
+  }
+}/*# sourceMappingURL=index.css.map */
