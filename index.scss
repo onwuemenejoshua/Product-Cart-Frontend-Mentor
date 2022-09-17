@@ -31,13 +31,6 @@ body {
   }
 }
 
-// @media screen and (max-width: 400px) {
-//   #container {
-//     display: flex;
-//     flex-direction: column;
-//   }
-// }
-
 /* ------------THE SYYLING FOR THE IMAGES----------------------*/
 
 .desktop {
@@ -66,6 +59,7 @@ body {
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
+    margin-top: 550px;
   }
 
   .desktop {
@@ -115,14 +109,9 @@ body {
     margin-bottom: 10px;
     margin: 0 auto;
     padding-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
-
-// @media screen and (max-width: 375px) {
-//   .text {
-//     padding-left: 120px;
-//   }
-// }
 
 h1 {
   margin-top: 1.3rem;
@@ -162,7 +151,7 @@ p {
   }
 }
 
-/* ----------------- THE STYLING FOR THE LINK IN THE TEXT; ADD TO CART -------------------*/
+/* --------------- THE STYLING FOR THE LINK IN THE TEXT; ADD TO CART -------------------*/
 
 #link {
   background-color: $color-3;

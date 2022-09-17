@@ -48,6 +48,7 @@ body {
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
+    margin-top: 550px;
   }
   .desktop {
     display: none;
@@ -93,6 +94,7 @@ body {
     margin-bottom: 10px;
     margin: 0 auto;
     padding-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
 h1 {
@@ -133,7 +135,7 @@ p {
     max-width: 350px;
   }
 }
-/* ----------------- THE STYLING FOR THE LINK IN THE TEXT; ADD TO CART -------------------*/
+/* --------------- THE STYLING FOR THE LINK IN THE TEXT; ADD TO CART -------------------*/
 #link {
   background-color: hsl(158deg, 36%, 37%);
   margin-top: 1.5rem;
